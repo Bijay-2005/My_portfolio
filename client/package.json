@@ -1,0 +1,16 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "npm --prefix artifacts/portfolio run typecheck",
+    "dev": "npm --prefix artifacts/portfolio run dev",
+    "build": "npm --prefix artifacts/portfolio run build",
+    "preview": "npm --prefix artifacts/portfolio run preview"
+  },
+  "private": true,
+  "devDependencies": {
+    "typescript": "~5.9.2",
+    "prettier": "^3.8.1"
+  }
+}
